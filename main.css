@@ -8,7 +8,7 @@ nav {
   width: 100%;
   line-height: 20px;
   background-color: rgb(241, 220, 230);
-  /* z-index: 100;*/
+  z-index: 100;
 }
 nav ul {
   float: right;
@@ -50,6 +50,27 @@ header h1 {
   color: #ffffff;
 }
 
+.w3-tangerine {
+  font-family: "Tangerine", serif;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 60px;
+}
+.w3-tangerine-first {
+  font-family: "Tangerine", serif;
+  text-align: left;
+  padding-left: 250px;
+  padding-top: 60px;
+  font-size: 60px;
+}
+.w3-tangerine-para {
+  font-family: "Tangerine", serif;
+  text-align: left;
+  padding-left: 520px;
+  padding-top: 0px;
+  font-size: 50px;
+  color: aquamarine;
+}
 /*.wishes h1 {
   text-align: center;
   margin-top: 50px;
@@ -158,7 +179,7 @@ header h1 {
 
 .wishes img {
   opacity: 0.6;
-  transition: opacity 0.75s linear;
+  transition: opacity 0.5s linear;
 }
 .wishes img:hover {
   cursor: pointer;
