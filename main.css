@@ -157,9 +157,19 @@ header h1 {
 }
 
 .wishes img {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 .wishes img:hover {
   cursor: pointer;
   opacity: 1;
+}
+
+.new-wish {
+  background-color: #2d2d475b;
+  display: grid;
+  grid-template-columns: 40% auto;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
 }
