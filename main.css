@@ -158,6 +158,7 @@ header h1 {
 
 .wishes img {
   opacity: 0.6;
+  transition: opacity 0.75s linear;
 }
 .wishes img:hover {
   cursor: pointer;
@@ -165,6 +166,8 @@ header h1 {
 }
 
 .new-wish {
+  margin-left: 50px;
+  margin-right: 50px;
   background-color: #2d2d475b;
   display: grid;
   grid-template-columns: 40% auto;
@@ -172,4 +175,6 @@ header h1 {
   justify-items: center;
   align-items: center;
   align-content: center;
+  font-family: "Tangerine", serif;
+  font-size: 25px;
 }
