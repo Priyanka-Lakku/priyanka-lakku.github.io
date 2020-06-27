@@ -3,33 +3,40 @@ body {
   padding: 0;
 }
 
+
 nav {
   position: fixed;
   width: 100%;
-  line-height: 60px;
-  z-index: 100;
+  line-height: 20px;
+  background-color: rgb(241, 220, 230);  
+ /* z-index: 100;*/
 }
 nav ul {
   float: right;
+  text-align: center;
   margin: 0;
-  padding-right: 30px;
+  padding-right: 0px;
 }
 nav ul li {
   display: inline-block;
-  padding: 16px 32px;
+  padding: 12px 12px;
 }
 nav ul li a {
   text-decoration: none;
-  color: #8d5f5f;
+  color: rgb(43, 32, 32);
   font-size: 16px;
-  border-style: solid;
-  border-radius: 10px;
+  border-style: hidden;  
   border-color: #272449;
-  padding: 16px;
+  padding: 12px;
 }
 nav ul li a:hover,
 nav ul li a:active {
-  background-color: #24492d;
+  color: #e9f3ec;
+  background-color: #945185;
+}
+
+.hometext{
+  text-align: left;
 }
 
 header {
@@ -41,14 +48,18 @@ header {
 header h1 {
   margin: 0;
   padding: 0;
-  font-size: 48px;
+  font-size: 90px;
   font-weight: 500;
   text-align: center;
-  padding-top: 350px;
-  color: #ffffff;
+   color: #ffffff;
 }
 
-.wishes {
+.wishes h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-size: 22px;
+/*.wishes {
   margin: 0;
   padding: 0;
 }
@@ -56,7 +67,7 @@ header h1 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 25px;
-  font-size: 32px;
+  font-size: 22px;
 }
 .wishes .wishes-wish {
   width: 40%;
@@ -127,6 +138,8 @@ header h1 {
   opacity: 1;
   cursor: pointer;
   transform: scale(1.2);
-}
+}*/
+
 
 /*# sourceMappingURL=main.css.map */
+
