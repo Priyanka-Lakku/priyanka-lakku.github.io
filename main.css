@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -45,13 +48,25 @@ header {
   background-size: cover;
   background-position: 100% 0%;*/
 
-  background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)),
+  /*background-image: linear-gradient(
+      rgba(26, 26, 73, 0.6),
+      rgba(26, 26, 73, 0.6)               
+    ),
     url(images/Home_page_pic_edited2.jpg);
+  background-size: cover;
+  background-position: 100% 0%;*/
+
+  background-image: linear-gradient(
+      rgba(21, 44, 53, 0.5),
+      rgba(21, 44, 53, 0.5)
+    ),
+    url(images/home_page_pic_merged.jpg);
   background-size: cover;
   background-position: 100% 0%;
 
   height: 100vh;
 }
+
 header h1 {
   margin: 0;
   padding: 0;
