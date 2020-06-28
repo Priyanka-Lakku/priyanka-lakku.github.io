@@ -35,10 +35,21 @@ nav ul li a:active {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)),
-    url(images/Home\ page\ pic.jpg);
+  /*background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)),
+    url(images/Home_page_pic.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: 100% 13%;*/
+
+  /*background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)),
+    url(images/Home_page_pic_edited.jpg);
+  background-size: cover;
+  background-position: 100% 0%;*/
+
+  background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)),
+    url(images/Home_page_pic_edited2.jpg);
+  background-size: cover;
+  background-position: 100% 0%;
+
   height: 100vh;
 }
 header h1 {
