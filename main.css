@@ -73,21 +73,30 @@ header h1 {
 }
 
 .wish-heading {
-  margin-top: 50px;
-  margin-bottom: 40px;
   text-align: center;
   font-size: 32px;
   font-weight: 100;
 }
 
+.wish-heading h1 {
+  font-variant: small-caps;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: aquamarine;
+}
+
 .wishes {
   padding-top: 50px;
+  padding-bottom: 50px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-row-gap: 100px;
   justify-content: center;
   justify-items: center;
-  background-color: #2d2d47;
+  background-image: radial-gradient(
+    ellipse at center,
+    rgba(0, 33, 82, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 .wishes img {
@@ -97,18 +106,4 @@ header h1 {
 .wishes img:hover {
   cursor: pointer;
   opacity: 1;
-}
-
-.new-wish {
-  margin-left: 50px;
-  margin-right: 50px;
-  background-color: #2d2d475b;
-  display: grid;
-  grid-template-columns: 40% auto;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  align-content: center;
-  font-family: "Tangerine", serif;
-  font-size: 25px;
 }
