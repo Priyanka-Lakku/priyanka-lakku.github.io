@@ -56,13 +56,18 @@ header {
   background-size: cover;
   background-position: 100% 0%;*/
 
-  background-image: linear-gradient(
+  /*background-image: linear-gradient(
       rgba(21, 44, 53, 0.5),
       rgba(21, 44, 53, 0.5)
     ),
     url(images/home_page_pic_merged.jpg);
   background-size: cover;
-  background-position: 100% 0%;
+  background-position: 100% 0%;*/
+
+  background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)),
+    url(images/new_home_page_pic.jpg);
+  background-size: cover;
+  background-position: 100% 15%;
 
   height: 100vh;
 }
