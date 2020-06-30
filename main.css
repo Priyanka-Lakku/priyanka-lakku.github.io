@@ -158,7 +158,17 @@ header h1 {
 }
 
 .photos_video h1 {
-  font-variant: small-caps;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: aquamarine;
+  /*font-variant: small-caps;*/
+  font-family: "Tangerine", serif;
+  /*background-color: rgb(190, 231, 218);*/
+  padding-left: 40px;
+  padding-top: 60px;
+}
+
+.awesome h1{
+  font-family: "Tangerine", serif;
+  /*background-color: rgb(190, 231, 218);*/
+  padding-left: 40px;
+  padding-top: 60px;
+  text-align: center;
 }
