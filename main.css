@@ -147,3 +147,8 @@ header h1 {
   margin-top: 25px;
   text-align: center;
 }
+
+.awesome label {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+}
