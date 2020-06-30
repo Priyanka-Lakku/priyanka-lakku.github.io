@@ -38,42 +38,11 @@ nav ul li a:active {
 }
 
 header {
-  /*background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)),
-    url(images/Home_page_pic.jpg);
-  background-size: cover;
-  background-position: 100% 13%;*/
-
-  /*background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)),
-    url(images/Home_page_pic_edited.jpg);
-  background-size: cover;
-  background-position: 100% 0%;*/
-  /*background: rgb(2, 0, 36);
-  background: linear-gradient(
-      130deg,
-      rgba(2, 0, 36, 0.45) 0%,
-      rgba(9, 51, 121, 0.5) 100%,
-      rgba(0, 212, 255, 0.6) 100%
-    ),
-    url(images/Home_page_pic_edited2.jpg);
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 0%;*/
-
-  /*background-image: linear-gradient(
-      rgba(21, 44, 53, 0.5),
-      rgba(21, 44, 53, 0.5)
-    ),
-    url(images/home_page_pic_merged.jpg);
-  background-size: cover;
-  background-position: 100% 0%;*/
-
   background-image: url(images/latest_home_pic.jpeg);
   background-color: rgb(0, 0, 0);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 100% 100%;
-  /*height: 100vh;*/
 }
 
 header h1 {
@@ -161,4 +130,9 @@ header h1 {
   font-variant: small-caps;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: aquamarine;
+}
+
+.awesome {
+  margin-top: 25px;
+  text-align: center;
 }
