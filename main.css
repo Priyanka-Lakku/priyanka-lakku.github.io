@@ -127,16 +127,13 @@ header h1 {
 }
 
 .photos_video h1 {
-  /*font-variant: small-caps;*/
   font-family: "Tangerine", serif;
-  /*background-color: rgb(190, 231, 218);*/
   padding-left: 40px;
   padding-top: 60px;
 }
 
 .awesome h1 {
   font-family: "Architects Daughter", cursive;
-  /*background-color: rgb(190, 231, 218);*/
   padding-left: 40px;
   padding-top: 40px;
   text-align: center;
@@ -149,6 +146,6 @@ header h1 {
 }
 
 .awesome label {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 25px;
 }
